@@ -1,0 +1,11 @@
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\bin\Debug\netcoreapp2.1\AvaloniaDateTimePicker.dll
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\bin\Debug\netcoreapp2.1\AvaloniaDateTimePicker.deps.json
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\bin\Debug\netcoreapp2.1\AvaloniaDateTimePicker.runtimeconfig.json
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\bin\Debug\netcoreapp2.1\AvaloniaDateTimePicker.runtimeconfig.dev.json
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\bin\Debug\netcoreapp2.1\AvaloniaDateTimePicker.pdb
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.csproj.CoreCompileInputs.cache
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.AssemblyInfoInputs.cache
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.AssemblyInfo.cs
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.dll
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.pdb
+C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\netcoreapp2.1\AvaloniaDateTimePicker.csprojAssemblyReference.cache

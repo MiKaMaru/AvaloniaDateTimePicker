@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj": {}
+    "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj": {}
   },
   "projects": {
-    "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj": {
+    "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
+        "projectUniqueName": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
         "projectName": "AvaloniaDateTimePicker",
-        "projectPath": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
+        "projectPath": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
         "packagesPath": "C:\\Users\\Karachev.MA\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\obj\\",
+        "outputPath": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[0.8.0, )"
             },
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[0.8.0, )"
@@ -70,6 +74,10 @@
         "net461": {
           "dependencies": {
             "Avalonia": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            },
+            "Avalonia.Controls.DataGrid": {
               "target": "Package",
               "version": "[0.8.0, )"
             },

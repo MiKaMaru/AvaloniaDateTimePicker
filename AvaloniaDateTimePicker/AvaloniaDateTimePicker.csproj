@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>netcoreapp2.1;net461</TargetFrameworks>
@@ -12,7 +12,19 @@
     </AvaloniaResource>
   </ItemGroup>
   <ItemGroup>
+    <AvaloniaResource Remove="TimePicker.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="TimePicker.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.8.0" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="0.8.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TimePicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

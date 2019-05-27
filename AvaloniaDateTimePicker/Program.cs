@@ -15,7 +15,8 @@ namespace AvaloniaDateTimePicker
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .LogToDebug();
+                .UseDataGrid();
+        //.LogToDebug();
 
         // Your application's entry point. Here you can initialize your MVVM framework, DI
         // container, etc.

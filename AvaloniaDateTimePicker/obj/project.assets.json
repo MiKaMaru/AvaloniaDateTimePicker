@@ -58,6 +58,21 @@
           "build/Avalonia.targets": {}
         }
       },
+      "Avalonia.Controls.DataGrid/0.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.8.0",
+          "Avalonia.Remote.Protocol": "0.8.0",
+          "JetBrains.Annotations": "10.3.0",
+          "System.Reactive": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        }
+      },
       "Avalonia.Desktop/0.8.0": {
         "type": "package",
         "dependencies": {
@@ -1148,6 +1163,21 @@
         "build": {
           "build/Avalonia.props": {},
           "build/Avalonia.targets": {}
+        }
+      },
+      "Avalonia.Controls.DataGrid/0.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.8.0",
+          "Avalonia.Remote.Protocol": "0.8.0",
+          "JetBrains.Annotations": "10.3.0",
+          "System.Reactive": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
         }
       },
       "Avalonia.Desktop/0.8.0": {
@@ -2439,6 +2469,21 @@
           "build/Avalonia.targets": {}
         }
       },
+      "Avalonia.Controls.DataGrid/0.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.8.0",
+          "Avalonia.Remote.Protocol": "0.8.0",
+          "JetBrains.Annotations": "10.3.0",
+          "System.Reactive": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        }
+      },
       "Avalonia.Desktop/0.8.0": {
         "type": "package",
         "dependencies": {
@@ -3530,6 +3575,21 @@
         "build": {
           "build/Avalonia.props": {},
           "build/Avalonia.targets": {}
+        }
+      },
+      "Avalonia.Controls.DataGrid/0.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.8.0",
+          "Avalonia.Remote.Protocol": "0.8.0",
+          "JetBrains.Annotations": "10.3.0",
+          "System.Reactive": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
         }
       },
       "Avalonia.Desktop/0.8.0": {
@@ -4640,6 +4700,20 @@
         "tools/netstandard2.0/Avalonia.Build.Tasks.dll",
         "tools/netstandard2.0/Avalonia.Build.Tasks.pdb",
         "tools/netstandard2.0/Avalonia.Build.Tasks.xml"
+      ]
+    },
+    "Avalonia.Controls.DataGrid/0.8.0": {
+      "sha512": "sbeYHWtLsWD2eoQx3dgfMuVJyD1NQfTWbcqPRZ4pytqZk0Ls6FPM+xrut0eqjLPluz1RB5v0sqpShFgSsWif+Q==",
+      "type": "package",
+      "path": "avalonia.controls.datagrid/0.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.controls.datagrid.0.8.0.nupkg.sha512",
+        "avalonia.controls.datagrid.nuspec",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.pdb",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.xml"
       ]
     },
     "Avalonia.Desktop/0.8.0": {
@@ -10378,11 +10452,13 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Avalonia >= 0.8.0",
+      "Avalonia.Controls.DataGrid >= 0.8.0",
       "Avalonia.Desktop >= 0.8.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ],
     ".NETFramework,Version=v4.6.1": [
       "Avalonia >= 0.8.0",
+      "Avalonia.Controls.DataGrid >= 0.8.0",
       "Avalonia.Desktop >= 0.8.0"
     ]
   },
@@ -10393,11 +10469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
+      "projectUniqueName": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
       "projectName": "AvaloniaDateTimePicker",
-      "projectPath": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
+      "projectPath": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker.csproj",
       "packagesPath": "C:\\Users\\Karachev.MA\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\obj\\",
+      "outputPath": "C:\\Users\\Karachev.MA\\source\\repos\\AvaloniaDateTimePicker\\AvaloniaDateTimePicker\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -10436,6 +10512,10 @@
             "target": "Package",
             "version": "[0.8.0, )"
           },
+          "Avalonia.Controls.DataGrid": {
+            "target": "Package",
+            "version": "[0.8.0, )"
+          },
           "Avalonia.Desktop": {
             "target": "Package",
             "version": "[0.8.0, )"
@@ -10456,6 +10536,10 @@
       "net461": {
         "dependencies": {
           "Avalonia": {
+            "target": "Package",
+            "version": "[0.8.0, )"
+          },
+          "Avalonia.Controls.DataGrid": {
             "target": "Package",
             "version": "[0.8.0, )"
           },

@@ -149,3 +149,4 @@ C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\
 C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\net461\AvaloniaDateTimePicker.csproj.CopyComplete
 C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\net461\AvaloniaDateTimePicker.exe
 C:\Users\Karachev.MA\Source\Repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\net461\AvaloniaDateTimePicker.pdb
+C:\Users\Karachev.MA\source\repos\AvaloniaDateTimePicker\AvaloniaDateTimePicker\obj\Debug\net461\AvaloniaDateTimePicker.csprojAssemblyReference.cache

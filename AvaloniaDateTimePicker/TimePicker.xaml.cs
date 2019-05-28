@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Layout;
 using Avalonia.Markup.Xaml;
 
 #region directives of standart control
@@ -18,34 +19,28 @@ namespace AvaloniaDateTimePicker
 {
     public class Times
     {
-        private TimeSpan _first;
-        private TimeSpan _second;
-        private TimeSpan _third;
-        private TimeSpan _fourth;
+        private List<TimeSpan> content;
 
-        public Times(TimeSpan first, TimeSpan second, TimeSpan third, TimeSpan fourth)
+        public Times(List<TimeSpan> _content)
         {
-            _first = first;
-            _second = second;
-            _third = third;
-            _fourth = fourth;
+           content = new List<TimeSpan>(_content);
         }
 
         public string First
         {
-            get=> _first.ToString(@"hh\:mm");
+            get=> content[0].ToString(@"hh\:mm");
         }
         public string Second
         {
-            get => _second.ToString(@"hh\:mm");
+            get => content[1].ToString(@"hh\:mm");
         }
         public string Third
         {
-            get => _third.ToString(@"hh\:mm");
+            get => content[2].ToString(@"hh\:mm");
         }
         public string Fourth
         {
-            get => _fourth.ToString(@"hh\:mm");
+            get => content[3].ToString(@"hh\:mm");
         }
     }
     public class TimePicker : UserControl
@@ -78,21 +73,32 @@ namespace AvaloniaDateTimePicker
             _times = new List<Times>();
             for (int i = 0; i < 6; i++)
             {
-                _times.Add(new Times(
-                    TimeSpan.Parse(i * 4 + ":00"),
-                    TimeSpan.Parse(i * 4 + 1 + ":00"),
-                    TimeSpan.Parse(i * 4 + 2 + ":00"),
-                    TimeSpan.Parse(i * 4 + 3 + ":00")));
-                Console.WriteLine(TimeSpan.Parse(i * 4 + ":00").ToString());
-                // _timeList.Add(TimeSpan.Parse(i+".00"));
+                var tmp = new List<TimeSpan>();
+                tmp.Add(TimeSpan.Parse(i * 4 + ":00"));
+                tmp.Add(TimeSpan.Parse(i * 4 + 1 + ":00"));
+                tmp.Add(TimeSpan.Parse(i * 4 + 2 + ":00"));
+                tmp.Add(TimeSpan.Parse(i * 4 + 3 + ":00"));
+                _times.Add(new Times(tmp));
+                Console.WriteLine(_times[i].First);
             }
             var collectionTimes = new Avalonia.Collections.DataGridCollectionView(_times);
-            var dgTimer = this.FindControl<DataGrid>("dgTimer");
+            var dgTimer = this.Get<DataGrid>("dgTimer");
             //dgTimer.IsReadOnly = true;
             dgTimer.ColumnHeaderHeight = 20;
-            dgTimer.CellPointerPressed();
+            dgTimer.CellPointerPressed += DgTimer_CellPointerPressed; ;
             dgTimer.Items = collectionTimes;
+            dgTimer.ColumnWidth = new DataGridLength(40);
+            dgTimer.VerticalAlignment = VerticalAlignment.Center;
         }
+
+        private void DgTimer_CellPointerPressed(object sender, DataGridCellPointerPressedEventArgs e)
+        {
+            var dg = (DataGrid) sender;
+            var column = dg.CurrentColumn;
+            var cell = column.GetCellContent(dg.SelectedItem);
+            Console.WriteLine(cell.ToString());
+        }
+
         public TimePicker()
         {
             this.InitializeComponent();

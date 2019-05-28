@@ -13,17 +13,13 @@
       <!-- <DataGrid.RowGroupHeadersTable>  </DataGrid.RowGroupHeadersTable>-->
       <DataGrid.Columns>
         <DataGridTextColumn
-          Binding="{Binding First}"
-          Width="4*"/>
+          Binding="{Binding First}"/>
         <DataGridTextColumn
-          Binding="{Binding Second}"
-          Width="4*"/>
+          Binding="{Binding Second}"/>
         <DataGridTextColumn
-          Binding="{Binding Third}"
-          Width="4*"/>
+          Binding="{Binding Third}"/>
         <DataGridTextColumn
-          Binding="{Binding Fourth}"
-          Width="4*"/>
+          Binding="{Binding Fourth}"/>
       </DataGrid.Columns>
     </DataGrid>
     </DockPanel>
